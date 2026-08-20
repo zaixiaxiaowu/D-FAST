@@ -21,7 +21,6 @@ Reference implementation for conversion rate (CVR) prediction under the **dual c
 - [API Reference](#api-reference)
 - [Ablation Switches](#ablation-switches)
 - [Scope and Limitations](#scope-and-limitations)
-- [Citation](#citation)
 - [License](#license)
 
 ---
@@ -417,21 +416,6 @@ This repository provides the **core D-FAST model graph** in TensorFlow. The foll
 | Full industrial dataset | Not included — proprietary data |
 
 The implementation uses `tf.compat.v1` for graph-mode TensorFlow. For TensorFlow 2.x eager execution, additional refactoring is required.
-
----
-
-## Citation
-
-If you use this code, please cite the corresponding paper:
-
-```bibtex
-@inproceedings{dfast2026,
-  title     = {D-FAST: Dynamic Fusion of Atomic and Semantic Towers for the Dual Cold-Start Problem in Single Dynamic Product Ads},
-  booktitle = {Proceedings of the ACM International Conference on Web Search and Data Mining (WSDM)},
-  year      = {2026},
-  note      = {Anonymous submission; author details to be updated upon acceptance}
-}
-```
 
 ---
 
